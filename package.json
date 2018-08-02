@@ -1,0 +1,46 @@
+{
+  "name": "omni-ico",
+  "version": "1.0.0",
+  "description": "ICO for omni",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "coverage": "solidity-coverage",
+    "lint": "solium -d contracts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavenave/omni-platform-ico.git"
+  },
+  "keywords": [
+    "ico"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mavenave/omni-platform-ico/issues"
+  },
+  "homepage": "https://github.com/mavenave/omni-platform-ico#readme",
+  "dependencies": {
+    "zeppelin-solidity": "^1.8.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.23.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "ethereumjs-abi": "^0.6.5",
+    "solidity-coverage": "^0.5.4",
+    "solium": "^1.1.7",
+    "truffle-hdwallet-provider": "0.0.5",
+    "truffle-ledger-provider": "0.0.3",
+    "webpack": "^4.12.0"
+  }
+}
